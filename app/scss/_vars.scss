@@ -1,0 +1,23 @@
+// MIXINS
+@mixin listnull {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+// COLORS
+
+// BRAKEPOINTS
+$breakpoint-min-sm: 576px;
+$breakpoint-min-md: 768px;
+$breakpoint-min-lg: 992px;
+$breakpoint-min-xl: 1200px;
+$breakpoint-min-xxl: 1400px;
+$breakpoint-max-xs: $breakpoint-min-sm - 1px;
+$breakpoint-max-sm: $breakpoint-min-md - 1px;
+$breakpoint-max-md: $breakpoint-min-lg - 1px;
+$breakpoint-max-lg: $breakpoint-min-xl - 1px;
+$breakpoint-max-xl: $breakpoint-min-xxl - 1px;
+
+
