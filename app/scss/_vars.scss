@@ -6,8 +6,6 @@
   text-decoration: none;
 }
 
-// COLORS
-
 // BRAKEPOINTS
 $breakpoint-min-sm: 576px;
 $breakpoint-min-md: 768px;
@@ -19,5 +17,3 @@ $breakpoint-max-sm: $breakpoint-min-md - 1px;
 $breakpoint-max-md: $breakpoint-min-lg - 1px;
 $breakpoint-max-lg: $breakpoint-min-xl - 1px;
 $breakpoint-max-xl: $breakpoint-min-xxl - 1px;
-
-
